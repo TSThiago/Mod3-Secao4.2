@@ -17,7 +17,7 @@ body {
 .navBar{
     display: flex;
     gap: 1vw ;
-    margin: 5vh auto 4vh auto;
+    margin: 5vh auto 2vh auto;
     height: 7vh;
     width: 90vw;
 }
@@ -56,7 +56,7 @@ body {
     display: grid;
     place-content: center;
     text-align: center;
-    width: 24.5vw;
+    width: 23.5vw;
     height: 28.5vh;
     background-color: #ffc600;
 }
@@ -70,3 +70,74 @@ body {
     font-size: 2.5vh;
     font-weight: 200;
 }
+
+.resources {
+    display: flex;
+    gap:2vw ;
+    flex-wrap: wrap;
+    width:90vw;
+    height: 80vh;
+    margin: 4vh auto 0 auto
+}
+
+.resource {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    width:21vw;
+    height:25vh;
+    background-color: white;
+}
+
+.resource img{
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+}
+
+.resource span{
+    font-weight: 700;
+}
+
+.featuredResource{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+    width: 90vw;
+    height: 50vh;
+    background-color: white;
+}
+.resourceImage {
+    margin-left: 5vw;
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 30vw;
+}
+
+.featuredResource img {
+    height: 300px;
+    width: 400px;
+}
+
+.featuredResourceText {
+    width: 56vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.featuredResourceText a{
+    display: grid;
+    place-content: center;
+    color: black;
+    font-weight: 400;
+    width: 15vw;
+    height: 7vh;
+    background-color: #ffc600;
+}
+
