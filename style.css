@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* Body */
 body {
     background-image: linear-gradient(
         to right,
@@ -19,6 +20,7 @@ section{
     display: flex;
 }
 
+/* NavBar */
 .navBar{
     gap: 1vw ;
     margin: 5vh auto 2vh auto;
@@ -35,6 +37,8 @@ section{
     height: 5vh;
     background-color: #ffc600;
 }
+
+/* Featured Section */
 
 .featuredSection {
     flex-direction: column;
@@ -72,6 +76,7 @@ section{
     font-weight: 200;
 }
 
+/* Resources Section */
 .resources {
     gap:2vw ;
     flex-wrap: wrap;
@@ -139,6 +144,8 @@ section{
     height: 7vh;
     background-color: #ffc600;
 }
+
+/* Instant Gram Section */
 
 .title{
     display: flex;
@@ -222,4 +229,199 @@ section{
 
 .img8 {
     background-image: url(./assets/img8.png);
+}
+
+@media screen and (max-width : 1000px) {
+    .priceBox {
+        width: 22vw;
+        height: 28.5vh;
+    }
+
+
+    .resource{
+        width:28.5vw;
+        height:25vh;
+    }
+
+    .featuredResource img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .title{
+        height: 3vh;
+        width: 90vw;
+        margin: 32vh auto 4vh auto
+    }
+
+    .title h3{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width:10vw;
+        margin: 0 1vw
+    }
+
+    .gramImage {
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .navBar{
+        flex-wrap: wrap;
+        margin-bottom: 8vh;
+    }
+    
+    .navBar a{
+        width: 29.2vw;
+        height: 5vh;
+    }
+
+    .featuredSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3vh;
+        height: 70vh;
+    }
+
+    .image {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .priceBox {
+        gap: 2vh;
+        width: 43.5vw;
+        height: 18vh;
+    }
+
+    .resource{
+        width:44vw;
+        height:25vh;
+    }
+
+    .featuredResource img {
+        height: 175px;
+        width: 275px;
+    }
+
+    .title{
+        height: 3vh;
+        width: 90vw;
+        margin: 32vh auto 4vh auto
+    }
+
+    .title h3{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width:10vw;
+        margin: 0 1vw
+    }
+
+    .instantGram {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 30vh;
+        gap: 2vw;
+    }
+
+    .gramImage {
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .navBar{
+        flex-wrap: wrap;
+        margin-bottom: 8vh;
+    }
+    
+    .navBar a{
+        width: 44.5vw;
+        height: 5vh;
+    }
+
+    .featuredSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2vh;
+        height: 90vh;
+    }
+
+    .image {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .priceBox {
+        gap: 2vh;
+        width: 90vw;
+        height: 18vh;
+    }
+
+    .resources{
+        height: 130vh;
+    }
+
+    .resource{
+        width:90vw;
+        height:25vh;
+    }
+
+    .featuredResource{
+        flex-direction: row;
+        height: 60vh;
+    }
+
+    .featuredResourceText{
+        width:100%;
+        height: 25vh;
+        align-items: center;
+        
+    }
+
+    .featuredResourceText a{
+        width: 25vw;
+        height: 7vh;
+    }
+
+    .resourceImage{
+        width:100%;
+        height:35vh
+    }
+
+    .featuredResource img {
+        height: 175px;
+        width: 275px;
+    }
+
+    .title{
+        height: 3vh;
+        width: 90vw;
+        margin: 40vh auto 4vh auto;
+        font-size: small;
+    }
+
+    .title h3{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width:10vw;
+        margin: 0 1vw
+    }
+
+    .instantGram {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 25vh;
+        gap: 2vw;
+    }
+
+    .gramImage {
+        height: 15vh;
+    }
 }
