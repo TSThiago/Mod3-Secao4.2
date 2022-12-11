@@ -14,12 +14,15 @@ body {
     );
 }
 
-.navBar{
+section{
+    width: 90vw;
     display: flex;
+}
+
+.navBar{
     gap: 1vw ;
     margin: 5vh auto 2vh auto;
     height: 7vh;
-    width: 90vw;
 }
 
 .navBar a{
@@ -34,11 +37,9 @@ body {
 }
 
 .featuredSection {
-    display: flex;
     flex-direction: column;
     gap: 3vh;
     flex-wrap: wrap;
-    width: 90vw;
     height: 60vh;
     margin: 0 auto 
 }
@@ -72,10 +73,8 @@ body {
 }
 
 .resources {
-    display: flex;
     gap:2vw ;
     flex-wrap: wrap;
-    width:90vw;
     height: 80vh;
     margin: 4vh auto 0 auto
 }
@@ -141,3 +140,86 @@ body {
     background-color: #ffc600;
 }
 
+.title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 3vh;
+    width: 90vw;
+    margin: 4vh auto
+}
+
+.title h3{
+    display: grid;
+    place-content: center;
+    width:10vw;
+    margin: 0 1vw
+}
+.bar1{
+    width: 39vw;
+    height: 50%;
+    background-image: linear-gradient(
+        to left,
+        #fec402,
+        #e73e72
+        );
+}
+
+.bar2{
+    width: 39vw;
+    height: 50%;
+    background-image: linear-gradient(
+        to right,
+        #fec402,
+        #7b46cd
+    );
+}
+
+.instantGram {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 55vh;
+    gap: 2vw;
+}
+
+.gramImage {
+    width: 21vw;
+    height: 30vh;
+    background-position:center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    background-image: url(./assets/img1.png);
+    
+}
+
+.img2 {
+    background-image: url(./assets/img2.png);
+}
+
+.img3 {
+    background-image: url(./assets/img3.png);
+}
+
+.img4 {
+    background-image: url(./assets/img4.png);
+}
+
+.img5 {
+    background-image: url(./assets/img5.png);
+}
+
+.img6 {
+    background-image: url(./assets/img6.png);
+}
+
+.img7 {
+    background-image: url(./assets/img7.png);
+}
+
+.img8 {
+    background-image: url(./assets/img8.png);
+}
