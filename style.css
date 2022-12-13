@@ -8,7 +8,9 @@
 
 /* Body */
 body {
-    background-image: linear-gradient(
+    background-image:
+    url(./assets/topography.svg) 
+    ,linear-gradient(
         to right,
         #e73e72,
         #7b46cd
